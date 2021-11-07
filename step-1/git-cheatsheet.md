@@ -67,7 +67,7 @@ git restore file.txt
 
 Undo all changes you have made
 ```
-git restore -a
+git restore .
 ```
 
 ### git switch (Formarly know as git checkout)
@@ -80,7 +80,7 @@ git switch branch-name
 
 Create a new branch and switch to it
 ```
-git switch -b branch-name
+git switch -c branch-name
 ```
 
 ### git branch 
