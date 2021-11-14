@@ -1,4 +1,5 @@
 import React from 'react';
+import BulbasaurComponent from "./BulbasaurComponent";
 import logo from './logo.svg';
 import './App.css';
 
@@ -18,6 +19,8 @@ function App() {
         >
           Learn React
         </a>
+                <BulbasaurComponent/>
+
       </header>
     </div>
   );
