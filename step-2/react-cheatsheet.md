@@ -25,3 +25,32 @@ When installing 3rd party packages (such as Material-UI or Redux), it's importan
 ```
 npm install
 ```
+
+## React and Building UIs
+### Props and state
+In React, components are rendered out directly based on props and state. They will render JSX, using those values.
+
+State is controlled data within react, and whenever it's updated, the component with the state will automatically rerender, without you manually having to call a rerender.
+
+Props act similarly to state, but they're managed by other components. Whenever a React component is rerendered, it will check to see if it's props have changed, and then rerender accordingly.
+
+### Creating components
+- Make a new file `PlaceholderName.tsx`
+- Write an interface for the component's props
+```typescript
+interface PlaceholderNameProps {
+    prop1: string
+    prop2: number
+}
+```
+
+- Write out the component body. Feel free to make it however you want
+```typescript jsx
+const PlaceholderName = (props: PlaceholderNameProps) => {
+    return <h1>Hello! prop one: {props.prop1}, prop two: {props.prop2}</h1>
+}
+
+export default PlaceholderName
+```
+
+[You can find more about React here](https://beta.reactjs.org/learn)
