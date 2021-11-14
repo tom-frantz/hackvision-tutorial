@@ -12,3 +12,12 @@ Try, for example, [https://pokeapi.co/api/v2/pokemon/1](https://pokeapi.co/api/v
 ## JSON 
 Most API responses will return some structure in JSON. This is pretty commonplace amongst the industry, and JSON can be easily navigated with libraries or natively in most languages. [Go here to learn more about JSON](https://www.w3schools.com/js/js_json_intro.asp)
 
+## Consuming an API.
+TODO
+
+## Consuming your own API
+To connect to your own API, you can follow the same approach as above. It follows all the same principles, you'll just access localhost instead of any other servers.
+
+You may have CORS errors (Cross-Origin Resource Sharing), but this is easily solvable working with flask. Simply use the flask-cors package and wrap your app appropriately. For more information, follow the example in app.py
+
+See the FlaskComponent.tsx for a working example

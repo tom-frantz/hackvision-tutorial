@@ -42,7 +42,7 @@ const BulbasaurComponent: React.FC<BulbasaurComponentProps> = (props: BulbasaurC
     // Display Bulbasaur's name and his image.
     return <div>
         <h1>{bulbasaur?.name}</h1>
-        <img src={bulbasaur?.imageURL}/>
+        <img src={bulbasaur?.imageURL} alt={"Pokemon default sprite"}/>
     </div>
 };
 
