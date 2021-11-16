@@ -2,9 +2,19 @@
 ## Getting started
 To get started, make sure to install [Python](https://www.python.org/downloads/) from this link
 
-Once you've installed Python, make sure to install flask with the following command
+And install pip - The python package manager
+
+```bash 
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python3 get-pip.py
+
 ```
-pip install Flask
+
+Once you've installed Python, make sure to install flask and any other dependices you need. 
+For now we only need Flask but for the next step we will need flask-cors as well
+
+```
+pip -r requirements.txt
 ```
 
 ## Running Flask
